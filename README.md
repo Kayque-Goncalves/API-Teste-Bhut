@@ -31,30 +31,22 @@ A seguir seguem os comando necessários para fazer o setup do projeto:
   yarn install   // instala todas as dependencias.
 ```
 
-## Preparando o banco de dados
-
-> Aviso: Escolhi utilizar o SQlite como banco de dados apenas por uma questão de praticidade, já que sempre utilizo ele para fazer meus testes. Eu particularmente utilizo o **Beekeeper Studio** para checar os dados registrados.
-
-Na raiz da pasta database, crie um arquivo seguindo o seguinte padrão:
-
-```
-  NOME_DO_ARQUIVO.db
-```
-
-> Aviso: O arquivo **ormconfig.json** não foi configurado para encontrar o nome do arquivo de banco automaticamente, então substitua a parte _NOME_DO_ARQUIVO.db_ com o nome que você definiu.
-
-Agora execute as duas migrations, para que as tabelas possam ser criadas automaticamente.
-
-```bash
-  yarn typeorm migration:run
-```
-
 ## Rodando o servidor
 
 Para rodar o servidor basta executar o seguinte comando:
 
 ```bash
   yarn dev
+```
+
+## Preparando o banco de dados
+
+> Aviso: Escolhi utilizar o SQlite como banco de dados apenas por uma questão de praticidade, já que sempre utilizo ele para fazer meus testes. Eu particularmente utilizo o **Beekeeper Studio** para checar os dados registrados.
+
+Execute as duas migrations, para que as tabelas possam ser criadas automaticamente com o seguinte comando:
+
+```bash
+  yarn typeorm migration:run
 ```
 
 ## Definindo Rotas para teste
