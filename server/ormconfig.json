@@ -1,6 +1,6 @@
 {
   "type": "sqlite",
-  "database": "./src/database/NOME_DO_ARQUIVO.db",
+  "database": "./src/database/api.db",
   "logging": false,
   "entities": [
      "src/app/models/**/*.ts"
