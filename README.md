@@ -62,22 +62,22 @@ Para rodar o servidor basta executar o seguinte comando:
 A seguir, seguem os exemplos das rotas da API assim como o formato das requisições.
 
 - Rota de criação de usuário:
-  ![createUser](/.github/createUser.png)
+  ![createUser](/.github/createUser.PNG)
 
 - Rota de autenticação:
-  ![auth](/.github/auth.png)
+  ![auth](/.github/auth.PNG)
 
 - Rota de criação de carros:
-  ![createCar](/.github/createCar.png)
+  ![createCar](/.github/createCar.PNG)
 
 - Rota de exibição de carros registrados:
-  ![showCars](/.github/showCars.png)
+  ![showCars](/.github/showCars.PNG)
 
 - Rota de alteração de registro:
-  ![updateCar](/.github/updateCar.png)
+  ![updateCar](/.github/updateCar.PNG)
 
 - Rota de exclusão de registro:
-  ![deleteCar](/.github/deleteCar.png)
+  ![deleteCar](/.github/deleteCar.PNG)
 
 ### Observações adicionais
 
@@ -88,6 +88,6 @@ Existem 3 rotas protegidas que só podem ser acessadas depois que o usuário for
 - Rota de Exlusão de registro
 
 Então assim que você gerar o token do usuário _(rota de autenticação)_, informe nas 3 rotas, dentro da aba de Auth o tipo do token (nesse caso Bearer) e o token que foi exibido.
-![token](/.github/token.png)
+![token](/.github/token.PNG)
 
 Sempre que você realizar uma operação e quiser ver se ela foi realizada como o esperado, basta executar a rota de exibição novamente.
